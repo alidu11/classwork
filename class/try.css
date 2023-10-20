@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav > ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav > ul > li{
+    display: inline;
+    margin: 10px;
+}
+
+nav > ul > li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.projects{
+    display: flex;
+}
+
+.Project{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #442b2b;
+    border-radius: 5px;
+    /*display: inline */
+}
+
+ img{
+    width: 300px;
+    height: 300px;
+}
+
